@@ -68,7 +68,7 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <input class="display:none" type="text" class="form-control" id="InputId">
+                        <input style="display:none" type="text" class="form-control" id="InputId">
                         <div class="mb-3">
                             <label for="InputName" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="InputName">
