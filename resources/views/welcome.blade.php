@@ -68,7 +68,7 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <input type="text" class="form-control" id="InputId">
+                        <input class="display:none" type="text" class="form-control" id="InputId">
                         <div class="mb-3">
                             <label for="InputName" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="InputName">
@@ -155,7 +155,7 @@
                         showToastCustom("Se ha eliminado con éxito", '#2dc21f');
                         setTimeout(() => {
                             location.reload();
-                        }, 1000);
+                        }, 500);
                     }
                 })
                 .catch(function(error) {
